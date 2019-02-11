@@ -4,18 +4,38 @@
 <head>
     <meta charset="utf-8" />
     <title>C0745072_CSD2214-6-WEEK06</title>
-</head>
-<body>
-    <script >
-        var input1=prompt("how high should I count upto?")
-        var sum = 0;
-        var j = 0;
-        while (j <= input1)
+    <script type="text/javascript">
+        function addNumbers(input1)
         {
-            sum += j;
-            j++;
+            var sum = 0;
+            var j = 0;
+            while (j <= input1)
+            {
+                sum += j;
+                j++;
+            }
+            return sum;
         }
-        document.write(sum)
-    </script>
-</body>
+        </script>
+</head >
+            <body>
+                <script>
+                    var input1 = prompt("how high should I count upto?")
+                    document.write(addNumbers(input1));
+                </script>
+
+                <!--<script type="text/javascript" >
+                    
+                  
+                    }
+                    var sum = 0;
+                    var j = 0;
+            while (j <= input1)
+            {
+                        sum += j;
+                    j++;
+                }
+                document.write(sum)
+    </script>-->
+    </body>
 </html>
